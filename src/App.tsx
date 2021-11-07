@@ -8,8 +8,6 @@ import rehypeSanitize from 'rehype-sanitize';
 import remarkToc from "remark-toc";
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
-// import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter';
-// import {dark} from 'react-syntax-highlighter/dist/esm/styles/prism';
 import 'katex/dist/katex.min.css' // `rehype-katex` does not import the CSS for you
 
 function App() {
